@@ -1,5 +1,5 @@
-var assert = require('assert');
-var OffsetBuffer = require('../');
+import assert from 'assert';
+import OffsetBuffer from '../index.js';
 
 describe('OffsetBuffer', function() {
   var o;

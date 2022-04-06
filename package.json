@@ -23,5 +23,6 @@
   "homepage": "https://github.com/indutny/offset-buffer",
   "devDependencies": {
     "mocha": "^1.21.4"
-  }
+  },
+  "type":"module"
 }

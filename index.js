@@ -1,11 +1,11 @@
-var Buffer = require('buffer').Buffer;
+import Buffer from 'buffer';
 
 function OffsetBuffer() {
   this.offset = 0;
   this.size = 0;
   this.buffers = [];
 }
-module.exports = OffsetBuffer;
+export default OffsetBuffer;
 
 OffsetBuffer.prototype.isEmpty = function isEmpty() {
   return this.size === 0;
